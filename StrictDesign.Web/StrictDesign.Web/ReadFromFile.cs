@@ -5,8 +5,13 @@ using System.Web;
 
 namespace StrictDesign.Web
 {
-    public class ReadFromFile
+    class ReadFromFile
     {
-        string fileContent = System.IO.File.ReadAllText(@"C:\Users\Jimmy\Source\Repos\VisualStudio\StrictDesign.Web\StrictDesign.Web\Text.txt");
+        public string fileContent;
+
+        public string getContent()
+        {
+            return fileContent = System.IO.File.ReadAllText(@"C:\Users\Jimmy\Source\Repos\VisualStudio\StrictDesign.Web\StrictDesign.Web\Text.txt");
+        }
     }
 }

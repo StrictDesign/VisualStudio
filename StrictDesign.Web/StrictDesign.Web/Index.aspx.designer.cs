@@ -10,7 +10,7 @@
 namespace StrictDesign.Web {
     
     
-    public partial class ReadFile {
+    public partial class Index {
         
         /// <summary>
         /// form1 control.
@@ -38,5 +38,32 @@ namespace StrictDesign.Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblInfo;
+        
+        /// <summary>
+        /// btnCheckNetwork control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCheckNetwork;
+        
+        /// <summary>
+        /// btnSendMail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSendMail;
+        
+        /// <summary>
+        /// lblSendMail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSendMail;
     }
 }
