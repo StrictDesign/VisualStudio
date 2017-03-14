@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace StrictDesign.Web
 {
@@ -17,7 +12,7 @@ namespace StrictDesign.Web
         protected void btnReadFile_Click(object sender, EventArgs e)
         {
             ReadFromFile ReadFile = new ReadFromFile();
-            lblInfo.Text = ReadFile.getContent();
+            lblInfo.Text = ReadFile.GetContent();
         }
 
         protected void btnCheckNetwork_Click(object sender, EventArgs e)
@@ -37,6 +32,15 @@ namespace StrictDesign.Web
             }
 
 
+        }
+
+        protected void btnConnectToDB_Click(object sender, EventArgs e)
+        {
+
+            object conn = new DatabaseConnection();
+            
+
+            //lblConn.Text = conn.ToString();
         }
     }
 }

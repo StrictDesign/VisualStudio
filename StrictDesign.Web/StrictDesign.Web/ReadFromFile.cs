@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace StrictDesign.Web
+﻿namespace StrictDesign.Web
 {
-    class ReadFromFile
+    internal class ReadFromFile
     {
-        public string fileContent;
+        public string FileContent;
 
-        public string getContent()
+        public string GetContent()
         {
-            return fileContent = System.IO.File.ReadAllText(@"C:\Users\Jimmy\Source\Repos\VisualStudio\StrictDesign.Web\StrictDesign.Web\Text.txt");
+            return FileContent = System.IO.File.ReadAllText(@"C:\Users\Jimmy\Source\Repos\VisualStudio\StrictDesign.Web\StrictDesign.Web\Text.txt");
         }
     }
 }

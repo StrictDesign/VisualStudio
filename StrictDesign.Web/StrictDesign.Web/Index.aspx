@@ -21,7 +21,10 @@
         <br /><br />
         <asp:Label ID="lblSendMail" runat="server" Text=""></asp:Label>
         <hr />
-
+        <asp:Button ID="btnConnectToDB" runat="server" Text="Connect to Database" OnClick="btnConnectToDB_Click" />
+        <br /><br />
+        <asp:Label ID="lblConn" runat="server" Text=""></asp:Label>
+        <hr />
     </div>
     </form>
 </body>
